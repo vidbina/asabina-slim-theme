@@ -1,6 +1,4 @@
-# NixOS SLiM Theme
-# Arseniy Seroka
-# ars.seroka@gmail.com
+# custom SLiM Theme
 
 # messages (ie: shutdown, session options, etc)
 msg_color               #000000
@@ -9,12 +7,12 @@ msg_x                   50%
 msg_y                   70%
 
 # valid values: stretch, tile
-background_style        tile
-background_color        #000000
+background_style        color
+background_color        #212121
 
 # input box controls
 input_font          	Sans:size=10:bold:dpi=96
-input_fgcolor           #000000
+input_fgcolor           #111111
 # panel location
 input_panel_x           50%
 input_panel_y           50%
@@ -26,7 +24,7 @@ input_pass_y            -1
 
 # username / password request (actual text)
 username_font          	Sans:size=10:bold:dpi=96
-username_color        	#000000
+username_color        	#111111
 username_x              50
 username_y              190
 password_x              50
