@@ -11,7 +11,7 @@ background_style        color
 background_color        #212121
 
 # input box controls
-input_font          	Sans:size=10:bold:dpi=96
+input_font              Mono:size=8:bold:antialias=true:dpi=96
 input_fgcolor           #111111
 # panel location
 input_panel_x           50%
@@ -23,8 +23,8 @@ input_pass_x            -1
 input_pass_y            -1
 
 # username / password request (actual text)
-username_font          	Sans:size=10:bold:dpi=96
-username_color        	#111111
+username_font           Mono:size=8:bold:antialias=true:dpi=96
+username_color          #111111
 username_x              50
 username_y              190
 password_x              50
@@ -33,8 +33,11 @@ username_msg            Username:
 password_msg            Password:
 
 # welcome message
-#welcome_x              	50%
-#welcome_y              	22
-#welcome_font           	Sans:size=10:bold:dpi=96
-#welcome_color          	#000000
+#welcome_x               50%
+#welcome_y               22
+welcome_font            Mono:size=8:bold:antialias=true:dpi=96
+welcome_color           #000077
+
+msg_font                Mono:size=8:bold:antialias=true:dpi=96
+msg_color               #777700
 
