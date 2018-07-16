@@ -13,7 +13,7 @@ session_y               90%
 
 # valid values: stretch, tile
 background_style        color
-background_color        #181818
+background_color        #080808
 
 # input box controls
 input_font              DejaVu Sans Mono:pixelsize=20:bold:antialias=true:dpi=96
@@ -23,6 +23,7 @@ input_panel_x           50%
 input_panel_y           50%
 input_name_x            52
 input_name_y            214
+input_shadow_color      #FF1493
 # force single input box (gdm style)
 input_pass_x            -1
 input_pass_y            -1
